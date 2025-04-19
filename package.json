@@ -1,0 +1,18 @@
+{
+  "name": "@zinkawaii/tsconfig",
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.8.1",
+  "author": "KazariEX",
+  "license": "MIT",
+  "repository": "zinkawaii/tsconfig",
+  "files": [
+    "tsconfig.json",
+    "tsconfig.*.json"
+  ],
+  "scripts": {
+    "release": "bumpp --no-push -c \"release: v%s\""
+  },
+  "devDependencies": {
+    "bumpp": "^10.1.0"
+  }
+}
