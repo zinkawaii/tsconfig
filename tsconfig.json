@@ -4,19 +4,16 @@
     "lib": [
       "ESNext",
       "WebWorker",
-      "DOM",
-      "DOM.Iterable"
+      "DOM"
     ],
     "moduleDetection": "force",
     "module": "preserve",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "allowJs": true,
-    "strict": true,
     "noImplicitOverride": true,
     "noUnusedLocals": true,
     "noEmit": true,
-    "esModuleInterop": true,
     "verbatimModuleSyntax": true,
     "skipLibCheck": true
   }

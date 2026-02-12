@@ -4,12 +4,18 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  default:
+    bumpp:
+      specifier: ^10.1.0
+      version: 10.1.0
+
 importers:
 
   .:
     devDependencies:
       bumpp:
-        specifier: ^10.1.0
+        specifier: 'catalog:'
         version: 10.1.0
 
 packages:
